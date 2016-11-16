@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var $gulp = require('gulp-load-plugins')();
+var localServer = require('./server.js');
 
 gulp.task('js', function () {
     return gulp.src('./src.js/**/*.js')
@@ -26,6 +27,9 @@ gulp.task('build', ['js', 'tmpl'], function () {
 });
 
 gulp.task('default', ['build'], function () {
+
+    //localServer.app.start();
+
     gulp.watch('src.js/**/*.js', ['build']);
     gulp.watch('src.js/**/*.html', ['build']);
 });
