@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "Tempo Titans",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "node app",
+    "postinstall": "gulp default"
   },
   "author": "SNP",
   "license": "ISC",
