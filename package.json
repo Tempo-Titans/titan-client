@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Tempo Titans",
   "scripts": {
-    "start" : "node app",
+    "start": "node app",
     "postinstall": "gulp default"
   },
   "author": "SNP",
@@ -17,6 +17,12 @@
     "gulp-plumber": "~1.1.0",
     "gulp-ng-annotate": "~2.0.0",
     "gulp-rename": "~1.2.2",
-    "express": "~4.14.0"
+    "express": "~4.14.0",
+    "main-bower-files": "~2.13.1",
+    "md5-file": "~3.1.1",
+    "read-file": "~0.2.0",
+    "write": "~0.3.2",
+    "file-exists": "~2.0.0",
+    "gulp-bower": "0.0.13"
   }
 }

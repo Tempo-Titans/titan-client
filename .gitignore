@@ -1,5 +1,7 @@
 .idea
 *.iml
-node_modules
+/node_modules/
 build
 client*.js
+libs*.js
+/bower_components/
