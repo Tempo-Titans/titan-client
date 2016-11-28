@@ -19,10 +19,6 @@
     "gulp-rename": "~1.2.2",
     "express": "~4.14.0",
     "main-bower-files": "~2.13.1",
-    "md5-file": "~3.1.1",
-    "read-file": "~0.2.0",
-    "write": "~0.3.2",
-    "file-exists": "~2.0.0",
     "gulp-bower": "0.0.13"
   }
 }
